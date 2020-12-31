@@ -11,22 +11,24 @@
   <meta name="description" content="javascript基础script的使用外部引入通过src来引入 12&lt;script src&#x3D;&quot;引入文件.js&quot;&gt;&lt;&#x2F;script&gt; 网页内部书写123&lt;script&gt;    alert(&amp;#x27;hello&amp;#x27;);&lt;&#x2F;script&gt; 标签位置如果js的script放在head标签中，会先解析，导致页面元素无法加载。为">
 <meta property="og:type" content="article">
 <meta property="og:title" content="javascript基础">
-<meta property="og:url" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/index.html">
+<meta property="og:url" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="javascript基础script的使用外部引入通过src来引入 12&lt;script src&#x3D;&quot;引入文件.js&quot;&gt;&lt;&#x2F;script&gt; 网页内部书写123&lt;script&gt;    alert(&amp;#x27;hello&amp;#x27;);&lt;&#x2F;script&gt; 标签位置如果js的script放在head标签中，会先解析，导致页面元素无法加载。为">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/blog/source_posts/javascript基础-1/比较.png">
-<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/blog/source_posts/javascript基础-1/while.png">
-<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/blog/source_posts/javascript基础-1/for.png">
-<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/blog/source_posts/javascript基础-1/字面量嵌套.png">
-<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/blog/source_posts/javascript基础-1/标签模板.png">
-<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/blog/source_posts/javascript基础-1/trim.gif">
-<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/blog/source_posts/javascript基础-1/replace.png">
+<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80/%E6%AF%94%E8%BE%83.png">
+<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80/while.png">
+<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80/dowhile.png">
+<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80/for.png">
+<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80/forin.png">
+<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80/%E5%AD%97%E9%9D%A2%E9%87%8F%E5%B5%8C%E5%A5%97.png">
+<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80/%E6%A0%87%E7%AD%BE%E6%A8%A1%E6%9D%BF.png">
+<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80/trim.gif">
+<meta property="og:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80/random.png">
 <meta property="article:published_time" content="2020-12-21T02:31:20.000Z">
-<meta property="article:modified_time" content="2020-12-21T02:38:07.030Z">
+<meta property="article:modified_time" content="2020-12-26T07:34:17.156Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/blog/source_posts/javascript基础-1/比较.png">
+<meta name="twitter:image" content="http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80/%E6%AF%94%E8%BE%83.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -162,7 +164,7 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="w-javascript基础-1" class="article article-type-w " itemscope itemprop="blogPost">
+            <article id="w-javascript基础" class="article article-type-w " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -174,7 +176,7 @@
   
 
         
-        <a href="/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/" class="archive-article-date">
+        <a href="/2020/12/21/javascript%E5%9F%BA%E7%A1%80/" class="archive-article-date">
   	<time datetime="2020-12-21T02:31:20.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-12-21</time>
 </a>
         
@@ -337,7 +339,8 @@
 <p><code>===</code>不强制类型转换比较</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> a = <span class="number">1</span>,b = <span class="number">2</span>,c = <span class="string">&#x27;1&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(a &lt; b); <span class="comment">//true</span></span><br><span class="line"><span class="built_in">console</span>.log(a == b); <span class="comment">//false</span></span><br><span class="line"><span class="built_in">console</span>.log(a == c); <span class="comment">//true</span></span><br><span class="line"><span class="built_in">console</span>.log(a === c); <span class="comment">//false</span></span><br><span class="line"><span class="built_in">console</span>.log(a == <span class="literal">true</span>); <span class="comment">//true</span></span><br><span class="line"><span class="built_in">console</span>.log(a === <span class="literal">true</span>); <span class="comment">//false</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>使用比较运算完成，年龄低于90岁</p>
-<p><img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/blog\source_posts\javascript基础-1\比较.png" alt="比较"></p>
+<img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80/%E6%AF%94%E8%BE%83.png" class title="This is an 1 image">
+
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=<span class="string">&quot;en&quot;</span>&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=<span class="string">&quot;UTF-8&quot;</span>&gt;</span><br><span class="line">    &lt;meta name=<span class="string">&quot;viewport&quot;</span> content=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span><br><span class="line">    &lt;title&gt;Document&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;input type=<span class="string">&quot;text&quot;</span> name=<span class="string">&quot;age&quot;</span>/&gt;</span><br><span class="line">    &lt;span id=<span class="string">&quot;msg&quot;</span>&gt;&lt;/span&gt;</span><br><span class="line">    &lt;script&gt;</span><br><span class="line">        <span class="keyword">let</span> span = <span class="built_in">document</span>.querySelector(<span class="string">&quot;#msg&quot;</span>);</span><br><span class="line">        <span class="built_in">document</span>.querySelector(<span class="string">&#x27;[name=&quot;age&quot;]&#x27;</span>)</span><br><span class="line">        .addEventListener(<span class="string">&#x27;keyup&#x27;</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">            <span class="built_in">console</span>.log(<span class="number">3</span>);</span><br><span class="line">            msg = <span class="string">&quot;&quot;</span>;</span><br><span class="line">            <span class="comment">// if(this.value &gt; 90)&#123;</span></span><br><span class="line">            <span class="comment">//     msg = &quot;age err&quot;</span></span><br><span class="line">            <span class="comment">// &#125;</span></span><br><span class="line">            span.innerHTML = <span class="built_in">this</span>.value &gt;= <span class="number">90</span> ? <span class="string">&quot;age err&quot;</span>: <span class="string">&quot;&quot;</span>;</span><br><span class="line">        &#125;)</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 <h3 id="逻辑运算"><a href="#逻辑运算" class="headerlink" title="逻辑运算"></a>逻辑运算</h3><h4 id="与-amp-amp"><a href="#与-amp-amp" class="headerlink" title="与&amp;&amp;"></a>与&amp;&amp;</h4><p><code>&amp;&amp;</code>逻辑与，及两边都是true，返回true</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> a = <span class="literal">true</span>;</span><br><span class="line"><span class="keyword">let</span> b = <span class="literal">false</span>;</span><br><span class="line"><span class="keyword">if</span>(!(a &amp;&amp; b))&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&#x27;success&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -372,23 +375,27 @@
 <p><code>while (expresssion) statement</code></p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> i = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span> (i&lt;<span class="number">10</span>)&#123;</span><br><span class="line">    i + = <span class="number">2</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.log(i);</span><br></pre></td></tr></table></figure>
 <p>实例：while循环生成表格</p>
-<p><img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/blog\source_posts\javascript基础-1\while.png" alt="while"></p>
+<img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80/while.png" class title="This is an 2 image">
+
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;script&gt;</span><br><span class="line">        <span class="function"><span class="keyword">function</span> <span class="title">table</span>(<span class="params">options = &#123;tr : <span class="number">5</span> ,td : <span class="number">3</span>&#125;</span>)</span>&#123;</span><br><span class="line">            <span class="built_in">document</span>.write(<span class="string">`&lt;table border=&quot;1&quot; width=&quot;100%&quot;&gt;`</span>);</span><br><span class="line">            <span class="keyword">while</span>(options.tr-- != <span class="number">0</span>) &#123;</span><br><span class="line">                <span class="built_in">document</span>.write(<span class="string">`&lt;tr&gt;`</span>);</span><br><span class="line">                <span class="keyword">let</span> td = options.td;</span><br><span class="line">                <span class="keyword">while</span>(td-- != <span class="number">0</span>)&#123;</span><br><span class="line">                    <span class="built_in">document</span>.write(<span class="string">`&lt;td&gt;<span class="subst">$&#123;td&#125;</span>&lt;/td&gt;`</span>);</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="built_in">document</span>.write(<span class="string">`&lt;/td&gt;`</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="built_in">document</span>.write(<span class="string">`&lt;table&gt;`</span>)</span><br><span class="line">        &#125;</span><br><span class="line">        table(&#123;<span class="attr">tr</span>:<span class="number">20</span>,<span class="attr">td</span>:<span class="number">20</span>&#125;);</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
 <h4 id="do-while"><a href="#do-while" class="headerlink" title="do while"></a>do while</h4><p>后条件判断，先进行循环然后判断</p>
 <p><code>do&#123;statement&#125;while (expression)</code></p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> i = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">do</span> &#123;</span><br><span class="line">    i + = <span class="number">2</span>;</span><br><span class="line">&#125;<span class="keyword">while</span> (i &lt; <span class="number">10</span>);</span><br><span class="line">alert(i);</span><br></pre></td></tr></table></figure>
 <p>输出三角形</p>
-<p>![do while](E:\blog\source_posts\javascript基础-1\do while.png)</p>
+<img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80/dowhile.png" class title="This is an 3 image">
+
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;script&gt;</span><br><span class="line">        <span class="keyword">do</span> &#123;</span><br><span class="line">            <span class="built_in">console</span>.log(<span class="number">33</span>)</span><br><span class="line">        &#125;<span class="keyword">while</span> (<span class="literal">false</span>);</span><br><span class="line">        <span class="function"><span class="keyword">function</span> <span class="title">start</span>(<span class="params">num</span>) </span>&#123;</span><br><span class="line">            <span class="keyword">let</span> start = <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">do</span> &#123;</span><br><span class="line">                <span class="keyword">let</span> n = <span class="number">0</span>;</span><br><span class="line">                <span class="keyword">do</span> &#123;</span><br><span class="line">                    <span class="built_in">document</span>.write(<span class="string">&#x27;*&#x27;</span>);</span><br><span class="line">                &#125;<span class="keyword">while</span> (++n &lt;= start);</span><br><span class="line">                <span class="built_in">document</span>.write(<span class="string">&#x27;&lt;br/&gt;&#x27;</span>)</span><br><span class="line">            &#125;<span class="keyword">while</span> (++start &lt;= num);</span><br><span class="line">        &#125;</span><br><span class="line">        start(<span class="number">5</span>);</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <h3 id="for循环"><a href="#for循环" class="headerlink" title="for循环"></a>for循环</h3><p>能在执行循环之前初始化变量，定义循环</p>
 <h4 id="for"><a href="#for" class="headerlink" title="for"></a>for</h4><p><code>for(initialization;expression;post-loop-expression)statement</code></p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> count = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">let</span> i = <span class="number">0</span>;i &lt; count;i++)&#123;</span><br><span class="line">    alert(i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>杨辉三角形</p>
-<p><img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/blog\source_posts\javascript基础-1\for.png" alt="for"></p>
+<img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80/for.png" class title="This is an 4 image">
+
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">    span &#123;</span><br><span class="line">        color: white;</span><br><span class="line">    &#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;script&gt;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">let</span> i = <span class="number">1</span>; i &lt; <span class="number">5</span>; i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">let</span> n = <span class="number">5</span> - i; n &gt; <span class="number">0</span>; n--)&#123;</span><br><span class="line">                <span class="built_in">document</span>.write(<span class="string">&quot;&lt;span&gt;*&lt;/span&gt;&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">let</span> m = i*<span class="number">2</span>-<span class="number">1</span>; m &gt; <span class="number">0</span>; m--) &#123;</span><br><span class="line">                <span class="built_in">document</span>.write(<span class="string">&quot;*&quot;</span>)</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="built_in">document</span>.write(<span class="string">&quot;&lt;br/&gt;&quot;</span>)</span><br><span class="line">        &#125;</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
 <h4 id="for-in"><a href="#for-in" class="headerlink" title="for in"></a>for in</h4><p>用于遍历对象的所有属性，一般适用于枚举对象</p>
 <p><code>for (property in expression) statement</code></p>
-<p>![for in](E:\blog\source_posts\javascript基础-1\for in.png)</p>
+<img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80/forin.png" class title="This is an 5 image">
+
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;body&quot;</span>&gt;</span><br><span class="line">        </span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">    <span class="keyword">let</span> obj = [</span><br><span class="line">    &#123;<span class="attr">name</span>:<span class="string">&#x27;wjq&#x27;</span>,<span class="attr">age</span>:<span class="number">22</span>&#125;,</span><br><span class="line">    &#123;<span class="attr">name</span>:<span class="string">&#x27;zzz&#x27;</span>,<span class="attr">age</span>:<span class="number">000</span>&#125;,</span><br><span class="line">    &#123;<span class="attr">name</span>:<span class="string">&#x27;www&#x27;</span>,<span class="attr">age</span>:<span class="number">100</span>&#125;</span><br><span class="line">];</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> key <span class="keyword">in</span> obj)&#123;</span><br><span class="line">    <span class="built_in">document</span>.write(<span class="string">`&lt;br&gt;`</span>);</span><br><span class="line">    <span class="built_in">document</span>.write(obj[key].name);</span><br><span class="line">&#125;</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 <h4 id="for-of"><a href="#for-of" class="headerlink" title="for of"></a>for of</h4><p>用于遍历数组，字符串，映射，集合等数据结构</p>
 <p>主要是取其中的值</p>
@@ -436,12 +443,14 @@
 <h4 id="使用单双引号包裹"><a href="#使用单双引号包裹" class="headerlink" title="使用单双引号包裹"></a>使用单双引号包裹</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> year = <span class="string">&quot;2019&quot;</span>;</span><br><span class="line"><span class="keyword">let</span> site = <span class="string">&quot;wjq&quot;</span>;</span><br><span class="line"><span class="built_in">console</span>.log(site + <span class="string">&quot;:&quot;</span> + year);</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">`<span class="subst">$&#123;site&#125;</span> : <span class="subst">$&#123;year&#125;</span>`</span>);<span class="comment">//比较推荐</span></span><br></pre></td></tr></table></figure>
 <h3 id="模板字面量"><a href="#模板字面量" class="headerlink" title="模板字面量"></a>模板字面量</h3><h4 id="基础使用"><a href="#基础使用" class="headerlink" title="基础使用"></a>基础使用</h4><p>使用**``**符号包裹的字符串中可以写入引入变量与表达式</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> name = <span class="string">&#x27;wjq&#x27;</span>;</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">`我的名字是<span class="subst">$&#123;name&#125;</span>`</span>)</span><br></pre></td></tr></table></figure>
-<h4 id="嵌套使用"><a href="#嵌套使用" class="headerlink" title="嵌套使用"></a>嵌套使用</h4><p><img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/blog\source_posts\javascript基础-1\字面量嵌套.png" alt="字面量嵌套"></p>
+<h4 id="嵌套使用"><a href="#嵌套使用" class="headerlink" title="嵌套使用"></a>嵌套使用</h4><img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80/%E5%AD%97%E9%9D%A2%E9%87%8F%E5%B5%8C%E5%A5%97.png" class title="This is an 6 image">
+
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">    ul &#123;</span><br><span class="line">        list-style: none;</span><br><span class="line">    &#125;</span><br><span class="line">li:nth-<span class="function"><span class="title">child</span>(<span class="params">odd</span>)</span> &#123;</span><br><span class="line">    background-color: #16a085;</span><br><span class="line">&#125;</span><br><span class="line">    &lt;/style&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    </span><br><span class="line">    &lt;script&gt;</span><br><span class="line">        <span class="keyword">let</span> str = <span class="string">&quot;hdr&quot;</span>;</span><br><span class="line">        str += <span class="string">&quot;adw&quot;</span>;</span><br><span class="line">        <span class="built_in">console</span>.log(str);</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">function</span> <span class="title">show</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;hdr.com&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">let</span> hd = <span class="string">`www.<span class="subst">$&#123;show()&#125;</span>`</span><span class="comment">//字面量</span></span><br><span class="line">        <span class="built_in">console</span>.log(hd);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        <span class="keyword">let</span> person = [</span><br><span class="line">            &#123;<span class="attr">title</span>: <span class="string">&quot;wjq&quot;</span>&#125;,</span><br><span class="line">            &#123;<span class="attr">title</span>: <span class="string">&quot;zzz&quot;</span>&#125;,</span><br><span class="line">            &#123;<span class="attr">title</span>: <span class="string">&quot;aaa&quot;</span>&#125;</span><br><span class="line">        ];</span><br><span class="line">        <span class="function"><span class="keyword">function</span> <span class="title">templete</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="string">`&lt;ul&gt;<span class="subst">$&#123;person.map(item=&gt; <span class="string">`&lt;li&gt;<span class="subst">$&#123;item.title&#125;</span>&lt;/li&gt;`</span>).join(<span class="string">&quot;&quot;</span>)&#125;</span>&lt;/ul&gt;`</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">document</span>.body.innerHTML = templete();</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
 <h3 id="标签模板"><a href="#标签模板" class="headerlink" title="标签模板"></a>标签模板</h3><p>模板标签是提取出普通字符串与变量</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> name = <span class="string">&quot;wjq&quot;</span>;</span><br><span class="line"><span class="keyword">let</span> age = <span class="string">&quot;sadkjwka.com&quot;</span>;</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">`name:<span class="subst">$&#123;name&#125;</span>,age:<span class="subst">$&#123;age&#125;</span>`</span>);</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">tag</span>(<span class="params">strings,...vars</span>) </span>&#123;</span><br><span class="line"><span class="built_in">console</span>.log(vars);</span><br><span class="line"><span class="built_in">console</span>.log(strings);</span><br><span class="line">&#125;</span><br><span class="line">tag();</span><br></pre></td></tr></table></figure>
 <p>实例</p>
-<p><img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/blog\source_posts\javascript基础-1\标签模板.png" alt="标签模板"></p>
+<img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80/%E6%A0%87%E7%AD%BE%E6%A8%A1%E6%9D%BF.png" class title="This is an 7 image">
+
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;script&gt;</span><br><span class="line">        <span class="keyword">let</span> lesson = [</span><br><span class="line">            &#123;<span class="attr">title</span>: <span class="string">&quot;sadwdasdwa&quot;</span>,<span class="attr">author</span>: <span class="string">&quot;wjq&quot;</span>&#125;,</span><br><span class="line">            &#123;<span class="attr">title</span>: <span class="string">&quot;sadcxcwewa&quot;</span>,<span class="attr">author</span>: <span class="string">&quot;zzz&quot;</span>&#125;,</span><br><span class="line">            &#123;<span class="attr">title</span>: <span class="string">&quot;sadwnbnhfe&quot;</span>,<span class="attr">author</span>: <span class="string">&quot;aaa&quot;</span>&#125;</span><br><span class="line">        ];</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">function</span> <span class="title">temple</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="string">`&lt;ul&gt;</span></span><br><span class="line"><span class="string">            <span class="subst">$&#123;lesson.map(item=&gt; links</span></span></span><br><span class="line"><span class="string"><span class="subst">            <span class="string">`&lt;li&gt;author:<span class="subst">$&#123;item.author&#125;</span>,calss:<span class="subst">$&#123;item.lesson&#125;</span>&lt;/li&gt;`</span>).join(<span class="string">&quot;&quot;</span>)&#125;</span></span></span><br><span class="line"><span class="string">            &lt;/ul&gt;`</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="function"><span class="keyword">function</span> <span class="title">links</span>(<span class="params">strings,...vars</span>) </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> strings.map(<span class="function">(<span class="params">str,key</span>)=&gt;</span>&#123;</span><br><span class="line">                <span class="keyword">return</span> str + (vars[key] ? vars[key] .replace(<span class="string">&quot;x&quot;</span>,<span class="string">`&lt;a href=&quot;https://www.baidu.com&quot;&gt;x&lt;/a&gt;`</span>): <span class="string">&quot;&quot;</span>)</span><br><span class="line">            &#125;).join(<span class="string">&quot;&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">document</span>.body.innerHTML += temple();</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
 <h3 id="获取长度"><a href="#获取长度" class="headerlink" title="获取长度"></a>获取长度</h3><p>使用<code>length</code>属性可以获取字符串长度</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">let name &#x3D; &#39;wjq&#39;;</span><br><span class="line">console.log(name.length);</span><br></pre></td></tr></table></figure>
@@ -454,7 +463,8 @@
 <p><code>trimRight</code>删除右边空白</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> name = <span class="string">&#x27;  wjq  &#x27;</span>;</span><br><span class="line"><span class="built_in">console</span>.log(name.teimRight());<span class="comment">//&#x27;wjq  &#x27;</span></span><br></pre></td></tr></table></figure>
 <p>实例</p>
-<p><img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/blog\source_posts\javascript基础-1\trim.gif" alt="trim"></p>
+<img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80/trim.gif" class title="This is an 8 image">
+
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;input type=<span class="string">&quot;text&quot;</span> name=<span class="string">&quot;password&quot;</span>/&gt;</span><br><span class="line">    &lt;span&gt;&lt;/span&gt;</span><br><span class="line">    &lt;script&gt;</span><br><span class="line">        <span class="keyword">let</span> ps = <span class="built_in">document</span>.querySelector(<span class="string">&quot;[name=&#x27;password&#x27;]&quot;</span>);</span><br><span class="line">        ps.addEventListener(<span class="string">&quot;keyup&quot;</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">            <span class="built_in">this</span>.value = <span class="built_in">this</span>.value.trim();</span><br><span class="line">            <span class="keyword">let</span> span = <span class="built_in">document</span>.getElementsByTagName(<span class="string">&quot;span&quot;</span>);</span><br><span class="line">            <span class="keyword">let</span> error = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">this</span>.value.length &lt; <span class="number">5</span>)&#123;</span><br><span class="line">                error = <span class="string">&quot;密码不能小于5位&quot;</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            span[<span class="number">0</span>].innerHTML = error;</span><br><span class="line">        &#125;)</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
 <h3 id="截取字符串"><a href="#截取字符串" class="headerlink" title="截取字符串"></a>截取字符串</h3><h4 id="单字符获取"><a href="#单字符获取" class="headerlink" title="单字符获取"></a>单字符获取</h4><p>位置为从0开始计算的</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> name = <span class="string">&#x27;wjq&#x27;</span>;</span><br><span class="line"><span class="built_in">console</span>.log(name.chartAt(<span class="number">2</span>));</span><br></pre></td></tr></table></figure>
@@ -531,7 +541,8 @@
 <h3 id="替换字符串"><a href="#替换字符串" class="headerlink" title="替换字符串"></a>替换字符串</h3><p><code>replace</code>替换方法</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> name = <span class="string">&#x27;wjq&#x27;</span>;</span><br><span class="line">web = name.replace(<span class="string">&#x27;wjq&#x27;</span>,<span class="string">&#x27;lxy&#x27;</span>);</span><br><span class="line"><span class="built_in">console</span>.log(name);</span><br></pre></td></tr></table></figure>
 <p>实例</p>
-<p><img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/blog\source_posts\javascript基础-1\replace.png" alt="replace"></p>
+
+
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> word = [<span class="string">&#x27;wjq&#x27;</span>,<span class="string">&#x27;lxy&#x27;</span>];</span><br><span class="line">        <span class="keyword">const</span> string = <span class="string">&quot;wjqandlxyarefriend&quot;</span></span><br><span class="line">        <span class="keyword">const</span> replacing = word.reduce(<span class="function">(<span class="params">pre,word</span>)=&gt;</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> pre.replace(word,<span class="string">`&lt;a href=&quot;?w=<span class="subst">$&#123;word&#125;</span>&quot;&gt;<span class="subst">$&#123;word&#125;</span>&lt;/a&gt;`</span>);</span><br><span class="line">        &#125;,string);</span><br><span class="line">        <span class="built_in">console</span>.log(replacing);</span><br><span class="line">        <span class="built_in">document</span>.body.innerHTML = replacing;</span><br></pre></td></tr></table></figure>
 <p><code>正则替换</code></p>
 <p>替换某些位置</p>
@@ -574,6 +585,232 @@
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Number</span>(<span class="string">&#x27;wjq&#x27;</span>));<span class="comment">//NaN</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Number</span>(<span class="literal">true</span>));<span class="comment">//1</span></span><br><span class="line">conosle.log(<span class="built_in">Number</span>(<span class="literal">false</span>));<span class="comment">//0</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Number</span>(<span class="string">&#x27;9&#x27;</span>));<span class="comment">//9</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Number</span>([]));<span class="comment">//0</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Number</span>([<span class="number">5</span>]));<span class="comment">//5</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Number</span>([<span class="number">5</span>,<span class="number">2</span>]));<span class="comment">//NaN</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Number</span>(&#123;&#125;));<span class="comment">//NaN</span></span><br></pre></td></tr></table></figure>
 <h3 id="NaN"><a href="#NaN" class="headerlink" title="NaN"></a>NaN</h3><p>表示无效值</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Number</span>(<span class="string">&#x27;wjq&#x27;</span>));<span class="comment">//NaN</span></span><br></pre></td></tr></table></figure>
+<p><code>NaN</code>不能使用<code>==</code>比较，同样为<code>NaN</code>但代表的意义不一样，但可以使用以下代码来判断</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> word = <span class="number">2</span>/<span class="string">&#x27;wjq&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span>(<span class="built_in">Number</span>.isNaN(word)&#123;</span><br><span class="line">   <span class="built_in">console</span>.log(<span class="string">&#x27;wrong&#x27;</span>);</span><br><span class="line">   &#125;)</span><br></pre></td></tr></table></figure>
+<p>可以使用<code>object.is</code>方法判断两个是否完全一样</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> word = <span class="number">2</span>/<span class="string">&#x27;wjq&#x27;</span>;</span><br><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Object</span>.is(word,<span class="literal">NaN</span>));<span class="comment">//true</span></span><br></pre></td></tr></table></figure>
+<h2 id="Math"><a href="#Math" class="headerlink" title="Math"></a>Math</h2><p><code>Math</code>类型提供了许多计算方法，<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math">Math官方文档</a></p>
+<h3 id="舍入处理"><a href="#舍入处理" class="headerlink" title="舍入处理"></a>舍入处理</h3><h4 id="celi"><a href="#celi" class="headerlink" title="celi"></a>celi</h4><p>向上取整</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Math</span>.ceil(<span class="number">5.5</span>));<span class="comment">//5</span></span><br></pre></td></tr></table></figure>
+<h4 id="floor"><a href="#floor" class="headerlink" title="floor"></a>floor</h4><p>向下取整</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Math</span>.floor(<span class="number">1.2</span>));<span class="comment">//1</span></span><br></pre></td></tr></table></figure>
+<h4 id="round"><a href="#round" class="headerlink" title="round"></a>round</h4><p>四舍五入</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Math</span>.round(<span class="number">1.5</span>));<span class="comment">//2</span></span><br><span class="line">cosnole.log(<span class="built_in">Math</span>.round(<span class="number">1.4</span>));<span class="comment">//1</span></span><br></pre></td></tr></table></figure>
+<h2 id="random"><a href="#random" class="headerlink" title="random"></a>random</h2><p><code>random</code>方法用于生成随机数，随机数范围是大于等于0，小于1</p>
+<p>因此返回0~1的随机数不会包括1</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Math</span>.random());<span class="comment">//1&gt;num&gt;=0  </span></span><br></pre></td></tr></table></figure>
+<p>如果要包括1，可以如以下操作</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Math</span>.random() * (<span class="number">1</span> + <span class="number">1</span>));</span><br></pre></td></tr></table></figure>
+<p>取a~b但不包括b的</p>
+<p>min+Math.floor(Math.random()*(Max-min))</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> number = <span class="built_in">Math</span>.floor(Marh.random()*(<span class="number">5</span>-<span class="number">2</span>)+<span class="number">2</span>);<span class="comment">//2&lt;=num&lt;5</span></span><br><span class="line"><span class="built_in">console</span>.log(number);</span><br></pre></td></tr></table></figure>
+<p>实例：随机点名</p>
+<img src="/2020/12/21/javascript%E5%9F%BA%E7%A1%80/random.png" class title="This is an 10 image">
+
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;p&gt;&lt;/p&gt;</span><br><span class="line">    &lt;script&gt;</span><br><span class="line">        <span class="keyword">let</span> stus = [<span class="string">&#x27;wjq&#x27;</span>, <span class="string">&#x27;hhh&#x27;</span>, <span class="string">&#x27;lxy&#x27;</span>, <span class="string">&#x27;zzz&#x27;</span>];</span><br><span class="line">        <span class="keyword">let</span> pos = <span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random() * (<span class="number">3</span>-<span class="number">1</span>)) + <span class="number">1</span>;</span><br><span class="line">        <span class="built_in">document</span>.querySelector(<span class="string">&#x27;p&#x27;</span>).innerText = stus[pos];</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="Date"><a href="#Date" class="headerlink" title="Date"></a>Date</h2><p>主要用于处理日期时间，同时也是网站中最常用的</p>
+<h3 id="声明日期"><a href="#声明日期" class="headerlink" title="声明日期"></a>声明日期</h3><p>获取当前时间</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> thisdate = <span class="keyword">new</span> <span class="built_in">Date</span>();</span><br><span class="line"><span class="built_in">console</span>.log(thisdate);</span><br><span class="line"><span class="built_in">console</span>.log(<span class="keyword">typeof</span>(thisdate))</span><br></pre></td></tr></table></figure>
+<p>可以封装后复用</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">dateFormat</span>(<span class="params">date, format = <span class="string">&quot;YYYY-MM-DD HH:mm:ss&quot;</span></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">const</span> config = &#123;</span><br><span class="line">    YYYY: date.getFullYear(),</span><br><span class="line">    MM: date.getMonth() + <span class="number">1</span>,</span><br><span class="line">    DD: date.getDate(),</span><br><span class="line">    HH: date.getHours(),</span><br><span class="line">    mm: date.getMinutes(),</span><br><span class="line">    ss: date.getSeconds()</span><br><span class="line">  &#125;;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">const</span> key <span class="keyword">in</span> config) &#123;</span><br><span class="line">    format = format.replace(key, config[key]);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> format;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.log(dateFormat(<span class="keyword">new</span> <span class="built_in">Date</span>(), <span class="string">&quot;YYYY年MM月DD日&quot;</span>));</span><br></pre></td></tr></table></figure>
+<p>其他方法，详情见<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date">官网</a></p>
+<table>
+<thead>
+<tr>
+<th align="center">方法</th>
+<th align="center">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">getDate()</td>
+<td align="center">返回一个月中的某一天</td>
+</tr>
+<tr>
+<td align="center">getDay()</td>
+<td align="center">返回一周中的某一天</td>
+</tr>
+<tr>
+<td align="center">getMonth()</td>
+<td align="center">对象返回月份</td>
+</tr>
+<tr>
+<td align="center">getFullYear()</td>
+<td align="center">以四位数字返回年份</td>
+</tr>
+<tr>
+<td align="center">getYear()</td>
+<td align="center">同上</td>
+</tr>
+<tr>
+<td align="center">getHours()</td>
+<td align="center">返回 小时</td>
+</tr>
+<tr>
+<td align="center">getMinutes()</td>
+<td align="center">返回分钟</td>
+</tr>
+<tr>
+<td align="center">getSeconds()</td>
+<td align="center">返回秒</td>
+</tr>
+<tr>
+<td align="center">getMilliseconds()</td>
+<td align="center">返回毫秒</td>
+</tr>
+<tr>
+<td align="center">getTime()</td>
+<td align="center">返回 1970 年 1 月 1 日至今的毫秒数。</td>
+</tr>
+<tr>
+<td align="center">getTimezoneOffset()</td>
+<td align="center">返回本地时间与格林威治标准时间 (GMT) 的分钟差。</td>
+</tr>
+<tr>
+<td align="center">getUTCDate()</td>
+<td align="center">根据世界时返回一个月的某一天</td>
+</tr>
+<tr>
+<td align="center">getUTCDay()</td>
+<td align="center">根据世界时返回一个周的某一天</td>
+</tr>
+<tr>
+<td align="center">getUTCMonth()</td>
+<td align="center">根据世界时返回月份</td>
+</tr>
+<tr>
+<td align="center">getUTCFullYear()</td>
+<td align="center">根据世界时返回四位数年</td>
+</tr>
+<tr>
+<td align="center">getUTCHours()</td>
+<td align="center">根据世界时返回小时</td>
+</tr>
+<tr>
+<td align="center">getUTCMinutes()</td>
+<td align="center">根据世界时返回分钟</td>
+</tr>
+<tr>
+<td align="center">getUTCSeconds()</td>
+<td align="center">根据世界时返回秒</td>
+</tr>
+<tr>
+<td align="center">getUTCMilliseconds()</td>
+<td align="center">根据世界时返回毫秒</td>
+</tr>
+<tr>
+<td align="center">parse()</td>
+<td align="center">返回1970年1月1日午夜到指定日期（字符串）的毫秒数。</td>
+</tr>
+<tr>
+<td align="center">setDate()</td>
+<td align="center">设置某月中的某一天</td>
+</tr>
+<tr>
+<td align="center">setMonth()</td>
+<td align="center">设置月份</td>
+</tr>
+<tr>
+<td align="center">setFullYear()</td>
+<td align="center">设置四位数年</td>
+</tr>
+<tr>
+<td align="center">setYear()</td>
+<td align="center">同上</td>
+</tr>
+<tr>
+<td align="center">setHours()</td>
+<td align="center">设置小时</td>
+</tr>
+<tr>
+<td align="center">setMinutes()</td>
+<td align="center">设置分钟</td>
+</tr>
+<tr>
+<td align="center">setSeconds()</td>
+<td align="center">设置秒</td>
+</tr>
+<tr>
+<td align="center">setMilliseconds()</td>
+<td align="center">设置毫秒</td>
+</tr>
+<tr>
+<td align="center">setTime()</td>
+<td align="center">以毫秒设置 Date 对象。</td>
+</tr>
+<tr>
+<td align="center">setUTCDate()</td>
+<td align="center">根据世界时设置月份的一天</td>
+</tr>
+<tr>
+<td align="center">setUTCMonth()</td>
+<td align="center">根据世界时设置月份</td>
+</tr>
+<tr>
+<td align="center">setUTCFullYear()</td>
+<td align="center">根据世界时设置年</td>
+</tr>
+<tr>
+<td align="center">setUTCHours()</td>
+<td align="center">根据世界时设置小时</td>
+</tr>
+<tr>
+<td align="center">setUTCMinutes()</td>
+<td align="center">根据世界时设置分钟</td>
+</tr>
+<tr>
+<td align="center">setUTCSeconds()</td>
+<td align="center">根据世界时设置秒</td>
+</tr>
+<tr>
+<td align="center">setUTCMilliseconds()</td>
+<td align="center">根据世界时设置毫秒</td>
+</tr>
+<tr>
+<td align="center">toSource()</td>
+<td align="center">返回源代码</td>
+</tr>
+<tr>
+<td align="center">toString()</td>
+<td align="center">转换为字符串</td>
+</tr>
+<tr>
+<td align="center">toTimeString()</td>
+<td align="center">把时间部分转换成字符串</td>
+</tr>
+<tr>
+<td align="center">toDateString()</td>
+<td align="center">把日期部分转换为字符串</td>
+</tr>
+<tr>
+<td align="center">toUTCString()</td>
+<td align="center">根据世界时，转换为字符串。</td>
+</tr>
+<tr>
+<td align="center">toLocaleString()</td>
+<td align="center">根据本地时间格式，换为字符串。</td>
+</tr>
+<tr>
+<td align="center">toLocaleTimeString()</td>
+<td align="center">根据本地时间格式，把 时间部分转换为字符串</td>
+</tr>
+<tr>
+<td align="center">toLocaleDateString()</td>
+<td align="center">根据本地时间格式，日期部分转换为字符串</td>
+</tr>
+<tr>
+<td align="center">UTC()</td>
+<td align="center">根据世界时返回 1970 年 1 月 1 日 到指定日期的毫秒数。</td>
+</tr>
+<tr>
+<td align="center">valueOf()</td>
+<td align="center">返回 Date 对象的原始值</td>
+</tr>
+</tbody></table>
+<h3 id="moment-js"><a href="#moment-js" class="headerlink" title="moment.js"></a>moment.js</h3><p>Moment.js是一个JavaScript时间库，它方便了日常开发中对时间的操作，提高了开发效率。<a target="_blank" rel="noopener" href="http://momentjs.cn/">官网</a></p>
+<p>获取当前时间</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(moment().format(<span class="string">&quot;YYYY-MM-DD HH:mm:ss&quot;</span>));</span><br></pre></td></tr></table></figure>
+<p>设置时间</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(moment(<span class="string">&quot;2020-02-18 09:22:15&quot;</span>).format(<span class="string">&quot;YYYY-MM-DD HH:mm:ss&quot;</span>));</span><br></pre></td></tr></table></figure>
 
       
 
@@ -653,7 +890,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80-1/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2020/12/21/javascript%E5%9F%BA%E7%A1%80/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -668,8 +905,8 @@
 <nav id="article-nav">
   
   
-    <a href="/2020/12/21/Map%E7%B1%BB%E5%9E%8B/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Map类型</div>
+    <a href="/2020/12/21/%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">数组类型</div>
       <i class="icon-circle-right"></i>
     </a>
   
